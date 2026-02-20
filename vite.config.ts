@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 export default defineConfig({
-    server: {
-        port: 5174
-    }
+    base: '/Medusa/',
 })
+
+//mic testing 123
