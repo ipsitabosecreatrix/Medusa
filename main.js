@@ -56,7 +56,7 @@ scene.add(keyLight);
 
 /* -------------------- Load Model -------------------- */
 const loader = new GLTFLoader();
-loader.load("/medusa.glb", (gltf) => {
+loader.load('./medusa.glb', (gltf) => {
 
   medusa = gltf.scene;
   scene.add(medusa);
