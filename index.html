@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Medusa</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="/favicon.ico" />
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.158.0/build/three.module.js", 
+      "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <div id="medusaThree"></div>
+  <button id="infoBtn">i</button>
+  <div id="infoPanel">
+    <h2>Medusa</h2>
+    <p>
+      The Medusa is a precision-engineered rotary tattoo machine inspired by the flowing, muscular movement of a serpent. Its scaled body echoes the fluid motion of a snake, giving the machine both visual identity & ergonomic balance.
+    </p>
+    <p>
+      At the heart of the Medusa lies a high-performance DC motor, delivering consistent torque and smooth power transfer. The adjustable cam wheel allows stroke length customization ranging from 1.5 mm to 5.5 mm, enabling artists to fine-tune the machine.
+    </p>
+    <p>
+      The Medusa is engineered for versatility, balance, and control - a fusion of mechanical precision and organic inspiration.
+    </p>
+  </div>
+  <img src="legend.png" class="legend" />
+  <img src="medusatext.png" class="vertical-title" />
+   <script type="module" src="./main.js"></script>
+</body>
+</html>
